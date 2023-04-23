@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: karn-client
+  config:
+    import: configserver:http://localhost:8001/
+server:
+  port: 8002
